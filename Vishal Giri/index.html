@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal' portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <link rel="icon" href="favicon-48x48.png" type="image/png">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Vishal <span>Giri</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+<section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I am <span>Vishal</span></h1>
+            <h3 class="text-animation">
+                A <span></span>
+            </h3>
+            <p>I build systems that work fast, scalable, and clean.
+                <br>
+                Backend focused with a strong grip on systems and cloud.
+                <br>
+                ~ Precision over complexity.
+            </p>
+
+               <div class="social-icons">
+                    <a href="https://github.com/vishal-giri-1234" target="_blank" title="GitHub">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vishal-giri-?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn">
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vgiri2798@gmail.com" 
+                        target="_blank" 
+                         title="Email">
+                        <i class="bx bx-envelope"></i>
+                        </a>
+                    
+                    <a href="https://www.instagram.com/vishalgirii45?igsh=MXZqYmtldWt1Y3Fqcw==/" target="_blank" title="Instagram">
+                        <i class="bx bxl-instagram-alt"></i>
+                    </a>
+                   <a href="https://x.com/VishalGiri95072" target="_blank" title="X (Twitter)">
+                       <i class="bx bxl-twitter"></i>
+                     </a>
+                    <a href="https://leetcode.com/u/Vishalgiri_2004/" target="_blank" title="LeetCode">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="social-img">
+                    </a>
+                    
+                    
+                </div>
+
+
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Hire</a>
+                    <a href="#contact" class="btn">Contact</a>
+                    <a href="Vishal_Giri_FlowCV_Resume_2026-04-02.pdf" download class="btn resume-btn">
+                         <i class="bx bx-download"></i> Resume
+                    </a>
+                </div>
+            </div>
+             <div class="home-img">
+                    <img src="./vp.jpeg" alt="">
+                </div>
+    </section>
+
+    <section class="about" id="about">
+    <div class="about-img">
+        <img src="vp.jpeg" alt="vishal">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        
+        <!-- Short Intro -->
+        <p id="short-intro">
+            Aspiring <strong>Software Developer</strong> navigating the ever-evolving world of technology, constantly refining skills to solve real-world challenges<br> with precision and creativity.
+        </p>
+
+        <!-- Education -->
+        <div class="education">
+            <h3>Education</h3>
+            <p>CSE(DS)</p>
+            <button class="read-more-btn" onclick="toggleEducation()">Read More</button>
+
+            <div id="more-education" class="more-education">
+                <div class="edu-box">
+                    <h4>Aditya engineering college ,beed</h4>
+                    <p>B.Tech (2022-2026)</p>
+                    <p>CGPA: <strong>6.50</strong></p>
+                </div>
+                <div class="edu-box">
+                    <h4>Sant bahinabai Junior College, shivoor</h4>
+                    <p>HSC (2022)</p>
+                    <p>Marks: <strong>76.50%</strong></p>
+                </div>
+                <div class="edu-box">
+                    <h4>Z.P.H.S.Borsar</h4>
+                    <p>SSC (2020)</p>
+                    <p>Marks: <strong>85.80%</strong></p>
+                </div>
+                <p>
+                    I am driven by curiosity and a passion for continuous learning. 
+                    Throughout<br> my academic journey, I have focused on mastering software development <br> and exploring cloud platforms and understanding system architectures.
+                    My approach combines analytical thinking with creativity, ensuring that every project I work on is both functional and elegant.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+            <div class="service-info">
+                <i class="bx bx-code"></i>
+                <h4>Frontend</h4>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Suscipit hic soluta,
+                     ea quos atque iusto voluptatum corporis eveniet 
+                     praesentium minima sed architecto quisquam ipsum magnam, 
+                     quasi libero sequi culpa animi.
+                </p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-info">
+                <i class="bx bx-code-curly"></i>
+                <h4>Backend</h4>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Suscipit hic soluta,
+                     ea quos atque iusto voluptatum corporis eveniet 
+                     praesentium minima sed architecto quisquam ipsum magnam, 
+                     quasi libero sequi culpa animi.
+                </p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-info">
+                <i class="bx bx-data"></i>
+                <h4>Database</h4>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Suscipit hic soluta,
+                     ea quos atque iusto voluptatum corporis eveniet 
+                     praesentium minima sed architecto quisquam ipsum magnam, 
+                     quasi libero sequi culpa animi.
+                </p>
+            </div>
+        </div>
+
+        </div>
+    </section> -->
+
+    <!-- ADD THIS IN <head> -->
+
+<!-- SKILLS SECTION -->
+<section class="skills" id="skills">
+    <h2 class="heading">Skills</h2>
+
+    <div class="skills-container">
+
+        <!-- Programming -->
+        <div class="skill-card" full-width>
+            <h3>Programming</h3>
+            <div class="skill-list">
+                <div class="skill-item"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                <div class="skill-item"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                <div class="skill-item"><i class="bx bx-data"></i><span>SQL</span></div>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card">
+            <h3>Backend</h3>
+            <div class="skill-list">
+                <div class="skill-item"><i class="devicon-spring-plain colored"></i><span>Spring Boot</span></div>
+                <div class="skill-item"><i class="bx bx-transfer-alt"></i><span>REST APIs</span></div>
+            </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-card">
+            <h3>Frontend</h3>
+            <div class="skill-list">
+                <div class="skill-item"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                <div class="skill-item"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+            </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card">
+            <h3>Database</h3>
+            <div class="skill-list">
+                <div class="skill-item"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+                <div class="skill-item"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+            </div>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div class="skill-card">
+            <h3>Cloud & DevOps</h3>
+            <div class="skill-list">
+                <div class="skill-item"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div>
+                <div class="skill-item"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+                <div class="skill-item"><i class="devicon-kubernetes-plain colored"></i><span>Kubernetes</span></div>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+            <h3>Tools</h3>
+            <div class="skill-list">
+                <div class="skill-item"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                <div class="skill-item"><i class="devicon-github-original"></i><span>GitHub</span></div>
+                <div class="skill-item"><i class="devicon-jenkins-line colored"></i><span>Jenkins</span></div>
+                <div class="skill-item"><i class="devicon-terraform-plain colored"></i><span>Terraform</span></div>
+                <div class="skill-item"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+                <div class="skill-item"><i class="devicon-intellij-plain colored"></i><span>IntelliJ</span></div>
+            </div>
+        </div>
+
+        <!-- Coursework -->
+        <div class="skill-card full-width">
+            <h3>Courseworks</h3>
+            <div class="skill-list">
+                <div class="skill-item"><i class="bx bx-code-alt"></i><span>DSA</span></div>
+                <div class="skill-item"><i class="bx bx-cube"></i><span>OOP</span></div>
+                <div class="skill-item"><i class="bx bx-chip"></i><span>ML</span></div>
+                <div class="skill-item"><i class="bx bx-data"></i><span>DBMS</span></div>
+                <div class="skill-item"><i class="bx bx-bug"></i><span>STQA</span></div>
+                <div class="skill-item"><i class="bx bx-cloud"></i><span>Cloud</span></div>
+                <div class="skill-item"><i class="bx bx-desktop"></i><span>OS</span></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- <section class="experience" id="experience">
+    <h2 class="heading">Experience</h2>
+    <div class="experience-container">
+
+        Experience Card -->
+        <!-- <div class="experience-card">
+            <div class="experience-logo-container">
+                <img src="persistent-logo.webp" alt="Persistent Systems Logo" class="experience-logo">
+            </div> -->
+            <!-- <div class="experience-info">
+                <h3>Persistent Systems</h3>
+                <p class="company-duration">March 2026 - Present</p>
+                <p class="position">Software Engineer</p>
+                
+            </div> -->
+        <!-- </div> -->
+
+        <!-- You can add more experience cards below if needed -->
+    <!-- </div>
+</section> -->
+
+<section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+
+    <div class="projects-box">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+    <img src="portfolioimg.jpeg" alt="Job Portal">
+
+    <h3>portfolio</h3>
+
+    <p>
+        Developed a responsive portfolio website to showcase projects, skills, and achievements.
+        Focused on clean UI design and smooth user experience using modern web technologies.
+        Includes interactive sections like project display, contact form, and resume download.
+    </p>
+
+    <p><strong>Tech:</strong> HTML5, CSS3, JavaScript, Node.js</p>
+
+    <a href="https://vishalsportfolio2.netlify.app/" target="_blank" class="btn">
+        View Project
+    </a>
+</div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <img src="quize.jpeg" alt="Learning Platform">
+
+            <h3>Programming Quize Web</h3>
+
+            <p>
+                Developed a dynamic programming quiz application to enhance problem-solving and coding skills.
+Implements structured question flow with instant feedback to improve learning efficiency.
+Designed for an engaging user experience with score tracking and performance evaluation.
+            </p>
+
+            <p><strong>Tech:</strong> Html,css,JavaScript, node.js,json, git ,mysql</p>
+
+            <div class="btn">View Project</div>
+        </div>
+
+        <!-- Project 3 -->
+       <!-- <div class="project-card">
+            <img src="project3.png" alt="DevOps Project">
+
+            <h3>VProfile Web App & DevOps Automation</h3>
+
+            <p>
+                A multi-tier application with complete CI/CD automation. Worked on microservices architecture, 
+                containerization, orchestration, and cloud deployment ensuring scalability and reliability.
+            </p>
+
+            <p><strong>Tech:</strong> AWS, Docker, Kubernetes, Jenkins, Git, MySQL, Nginx</p>
+
+            <div class="btn">View Project</div>
+        </div>-->
+
+    </div>
+</section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contact-form">
+    <div class="input-group">
+        <div class="input-box">
+            <input type="text" name="from_name" placeholder="Full Name" required>
+            <input type="email" name="from_email" placeholder="Email" required>
+        </div>
+
+        <div class="input-box">
+            <input type="number" name="phone" placeholder="Phone Number">
+            <input type="text" name="subject" placeholder="Subject" required>
+        </div>
+    </div>
+
+    <div class="input-group-2">
+        <textarea name="message" cols="10" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </div>
+</form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-instagram-alt"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            &copy; Vishal Mali | All Rights Reserved
+        </p>
+
+        <div class="footer-counter">
+            <p>Visitors: <span id="visitor-count">0</span></p>
+            <script type="text/javascript" src="https://hitwebcounter.com/counter/counter.php?page=1234567&style=0001&digits=6&type=ip&initCount=000000"></script>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+
+</body>
+</html>
